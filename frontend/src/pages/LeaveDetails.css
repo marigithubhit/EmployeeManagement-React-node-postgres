@@ -1,0 +1,60 @@
+/* LeaveDetails.css */
+.leave-details-container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .approve-btn {
+    background-color: #27ae60;
+    color: white;
+  }
+  
+  .approve-btn:hover {
+    background-color: #219150;
+  }
+  
+  .reject-btn {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .reject-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  .back-btn {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .back-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+  

@@ -1,0 +1,251 @@
+/* Container */
+.container {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.sidebar nav a:hover {
+    background: #34495e;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background: #ecf0f1;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Button Container (Aligns buttons at the top) */
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+/* Buttons */
+.add-btn, .close-btn {
+    background: #2ecc71;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add-btn:hover, .close-btn:hover {
+    background: #27ae60;
+}
+
+/* Table */
+.department-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.department-table th, .department-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.department-table th {
+    background: #34495e;
+    color: white;
+}
+
+/* Form Container (Fixed inside the dashboard) */
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 10px auto;
+    text-align: center;
+    position: relative; /* Ensure it does not push elements */
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Submit Button */
+.submit-btn {
+    background: #2ecc71;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background: #27ae60;
+}
+/* Align Edit and Delete buttons in the same row */
+.action-buttons {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+    justify-content: center; /* Center the buttons */
+    align-items: center;
+}
+
+/* Ensure buttons stay inline */
+.edit-btn, .delete-btn {
+    display: inline-block; /* Keep buttons in one line */
+    padding: 6px 12px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Styling for Edit Button */
+.edit-btn {
+    background: #f39c12;
+}
+
+.edit-btn:hover {
+    background: #e67e22;
+}
+
+/* Styling for Delete Button */
+.delete-btn {
+    background: #e74c3c;
+}
+
+.delete-btn:hover {
+    background: #c0392b;
+}
+/* Action Container - Ensures Buttons Stay in One Row */
+/* Ensure buttons are aligned and visible */
+.action-container {
+    display: flex;
+    justify-content: center; /* Center the buttons */
+    align-items: center;
+    gap: 15px; /* Adds space between buttons */
+    white-space: nowrap; /* Prevents wrapping */
+}
+
+/* Ensure buttons are not hidden */
+.edit-btn, .delete-btn {
+    display: inline-block !important; /* Ensure buttons appear */
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Delete Button Styling */
+.delete-btn {
+    background: #e74c3c;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.delete-btn:hover {
+    background: #c0392b;
+}
+
+
+/* Edit & Delete Buttons Styling */
+.edit-btn, .delete-btn {
+    display: inline-block; /* Ensures inline layout */
+    padding: 8px 14px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100px;
+    gap: 10px;
+}
+
+/* Styling for Edit Button */
+.edit-btn {
+    background: #f39c12;
+}
+
+.edit-btn:hover {
+    background: #e67e22;    
+}
+
+/* Styling for Delete Button */
+.delete-btn {
+    background: #e74c3c;
+}
+
+.delete-btn:hover {
+    background: #c0392b;
+}
+
+/* Ensure Table Cells Don't Wrap Content */
+.department-table td {
+    white-space: nowrap;
+}

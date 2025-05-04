@@ -1,0 +1,82 @@
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .add-leave-btn {
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .leave-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 1000px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .leave-form h2 {
+    margin-bottom: 15px;
+  }
+  
+  .leave-form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .leave-form input,
+  .leave-form select,
+  .leave-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  .submit-btn {
+    background: blue;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cancel-btn {
+    background: gray;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .leave-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .leave-table th,
+  .leave-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .status-pending {
+    color: orange;
+  }
+  
+  .status-approved {
+    color: green;
+  }
+  
+  .status-rejected {
+    color: red;
+  }
+  
